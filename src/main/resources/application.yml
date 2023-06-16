@@ -1,0 +1,31 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: sldm
+  config.import:
+    - classpath:properties/persistence.yml
+
+
+
+logging:
+  level:
+    org:
+      springframework:
+        web=DEBUG: DEBUG
+        security=DEBUG: DEBUG
+server.port: 8080
+
+
+
+
+
+
+
+server:
+  port=8080
+vaadin:
+  launch-browser=true
+
+
+
