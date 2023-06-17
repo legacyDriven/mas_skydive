@@ -1,0 +1,6 @@
+/*:host(.my-textfield) [part="input-field"] {*/
+/*    background-color: white;*/
+/*}*/
+.vaadin-text-field-container {
+    background-color: lightgray;
+}

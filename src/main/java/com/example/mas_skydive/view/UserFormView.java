@@ -10,10 +10,9 @@ import com.vaadin.flow.component.textfield.EmailField;
 import com.vaadin.flow.component.textfield.IntegerField;
 import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.router.Route;
-import com.vaadin.flow.server.PWA;
 
 @Route
-@PWA(name = "Skydive Logbook & Dropzone Manager", shortName = "SLDM")
+//@PWA(name = "Skydive Logbook & Dropzone Manager", shortName = "SLDM")
 public class UserFormView extends VerticalLayout {
 
     private final TextField firstNameField;

@@ -22,6 +22,8 @@ public class User {
     @GeneratedValue(strategy = GenerationType.AUTO)
     Long id;
 
+    Boolean isTandemPassenger;
+
     @NotNull
     String firstName;
 
@@ -30,6 +32,8 @@ public class User {
 
     @Email
     String email;
+
+    String password;
     @Past
     LocalDate birthDate;
 
@@ -44,7 +48,8 @@ public class User {
     ContactPerson contactPerson;
 
     @Positive
-    String weightInKgs;
+    @Min(value = 35, message = "Minimalna waga to 35 kg")
+    Integer weightInKgs;
 
     String PESEL;
 

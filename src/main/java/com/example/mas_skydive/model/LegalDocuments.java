@@ -3,16 +3,19 @@ package com.example.mas_skydive.model;
 import lombok.Data;
 
 import java.io.File;
-import java.util.Date;
+import java.time.LocalDate;
 
 @Data
 public class LegalDocuments {
 
-    private Date insuranceValidUntil;
+    private LocalDate insuranceValidUntil;
 
-    private Date kwtValidUntil;
+    private String policyNumber;
+
+    private String insuranceCompany;
+
+    private LocalDate kwtValidUntil;
 
     private File licenceScan;
-
 
 }

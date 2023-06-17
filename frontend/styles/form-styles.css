@@ -1,0 +1,33 @@
+/*!* Style dla pól formularza *!*/
+/*.textfield {*/
+/*    background-color: #ffffff; !* białe *!*/
+/*    border: 1px solid #cccccc;*/
+/*    padding: 10px;*/
+/*    margin-bottom: 10px;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*!* Style dla etykiet pól formularza *!*/
+/*.label {*/
+/*    font-weight: bold;*/
+/*    display: inline-block;*/
+/*    margin-bottom: 5px;*/
+/*    background-color: #f2f2f2; !* szary *!*/
+/*    padding: 2px;*/
+/*    border-radius: 2px;*/
+/*}*/
+
+/*!* Style dla przycisku *!*/
+/*.button {*/
+/*    background-color: #4CAF50; !* zielony *!*/
+/*    border: none;*/
+/*    color: white;*/
+/*    padding: 15px 32px;*/
+/*    text-align: center;*/
+/*    text-decoration: none;*/
+/*    display: inline-block;*/
+/*    font-size: 16px;*/
+/*    margin: 4px 2px;*/
+/*    cursor: pointer;*/
+/*    border-radius: 5px;*/
+/*}*/
